@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 26, 59);
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav a {
+  color: rgb(0, 174, 3);
+}
+
+form button {
+  padding: 1.7rem 2rem;
+  border-radius: 1rem;
+  background-color: blueviolet;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+li button {
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 106, 0);
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+li input[type="checkbox"]:checked+label {
+  text-decoration: line-through;
+  color: red;
+  cursor: pointer;
+}
+
+li {
+  font-size: 2rem;
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+form input {
+  padding: 1rem;
+  width: 50vw;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-size: 6rem;
+  color: rgb(112, 43, 177);
+}
